@@ -1,2 +1,26 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
+
+html{
+    position: relative;
+    min-height: 100%;
+    background-color: $background;
+}
+
+footer.footer{
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icon {
+    font-size: 30px; /* bigger icons */
+    margin: 0 20px;  /* more spacing */
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: cyan;
+}

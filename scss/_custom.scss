@@ -5,12 +5,13 @@
 $primary : #244855;
 $secondary : cyan;
 $dark : #244855;
-$light : #697077;
+$light : #343a40;
 $background : #FDF6EC;
-$font-family-sans-serif :"Montserrat", sans-serif !default;
-$font-family-serif :"Hind Madurai", serif !default;
+$font-family-sans-serif :"Roboto", sans-serif !default;
+$font-family-serif :"Roboto", serif !default;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
