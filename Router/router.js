@@ -10,7 +10,7 @@ const getRouteByUrl = (url) => {
   // Parcours de toutes les routes pour trouver la correspondance
   allRoutes.forEach((element) => {
     if (element.url == url) {
-      currentRoute = element;
+    currentRoute = element;
     }
   });
   // Si aucune correspondance n'est trouvée, on retourne la route 404
