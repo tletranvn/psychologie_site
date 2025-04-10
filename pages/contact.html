@@ -1,16 +1,81 @@
-<form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+<!-- <div class="container">
+  <div class="row">
+    
+    <div class="col-md-6">
+      <img src="../images/photo 1.webp" class="img-fluid" alt="Photo de contact">
     </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+    
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+</div>-->
+
+<div class="form-contact container my-5">
+  <div class="row">
+    <!-- Colonne de gauche pour la photo -->
+    <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <div style="width: 100%; max-width: 500px; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 10px; margin: 10px;">
+        <img src="../images/photo 3.webp" class="img-fluid w-100 h-100 object-fit-cover" alt="Photo de contact" style="object-fit: cover;">
+      </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+
+    <!-- Colonne de droite pour le formulaire -->
+    
+    <div class="col-md-6">
+      <form>
+
+        <!-- Ligne de texte "Get In Touch" -->
+        <div class="mb-3">
+          <h3 class="text-primary">Get In Touch</h3>
+          <p class="text-primary">"Une voix, même écrite, peut toucher un cœur. Partagez la vôtre."</p>
+        </div>
+
+        <!-- Prénom et Nom sur la même ligne -->
+        <div class="row mb-3">
+          <div class="col">
+            <label for="prenom" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="prenom">
+          </div>
+          <div class="col">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="nom">
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre e-mail.</div>
+        </div>
+
+        <!-- Message -->
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="6" placeholder="Votre message ici..."></textarea>
+        </div>
+
+        <!-- Bouton aligné à droite -->
+        <div class="text-end">
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
