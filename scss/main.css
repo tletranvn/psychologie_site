@@ -11971,7 +11971,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
+html, body {
   position: relative;
   min-height: 100%; /* Ensure the body takes full height */
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -11998,7 +11998,6 @@ footer.footer {
 }
 
 .hero {
-  background-color: #FDF6EC;
   padding: 40px;
 }
 
@@ -12034,4 +12033,8 @@ footer.footer {
   height: 200px; /* Set a fixed height for a square image */
   -o-object-fit: cover;
      object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.apropos {
+  padding-top: 60px;
 }/*# sourceMappingURL=main.css.map */

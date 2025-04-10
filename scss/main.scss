@@ -1,7 +1,7 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
 
-html{
+html, body{
     position: relative;
     min-height: 100%;         /* Ensure the body takes full height */
     overflow-x: hidden;   /* Prevent horizontal scrolling */
@@ -31,7 +31,6 @@ footer.footer{
 // homepage - hero //
 
 .hero{
-    background-color: $background;
     padding: 40px;
 }
 
@@ -70,7 +69,8 @@ footer.footer{
     object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 
-//Contact page//
-.form-contact{
-    background-color: $background;
+//apropos page//
+
+.apropos{
+    padding-top: 60px;
 }
