@@ -31,6 +31,8 @@ const LoadContentPage = async () => {
   // Ajout du contenu HTML à l'élément avec l'ID "main-page"
   document.getElementById("main-page").innerHTML = html;
 
+  document.getElementById("main-page").style.minHeight = "300px"; // or calc(100vh - header - footer height)
+
   // Ajout du contenu JavaScript
   if (actualRoute.pathJS != "") {
     // Création d'une balise script
