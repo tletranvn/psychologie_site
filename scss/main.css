@@ -11977,6 +11977,7 @@ html, body {
   display: flex;
   flex-direction: column;
   background-color: #FDF6EC;
+  overflow-x: hidden;
 }
 
 .page-wrapper { /*class englobe le body et fais pousser le footer tout en bas même si le contenu est court*/
