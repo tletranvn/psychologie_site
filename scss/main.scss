@@ -23,12 +23,12 @@ html, body{
   }
 
 main {
-    flex: 1;
+    flex: 1 0 auto;
 }
 
 //footer//
 
-footer.footer{
+footer{
     //padding: 20px;
    //position: relative;
     //bottom: 0;
@@ -95,3 +95,35 @@ footer.footer{
 .apropos{
     padding-top: 60px;
 }
+
+//Styles pour les posts
+
+  .post{
+    margin: 3rem auto;
+    max-width: 700px;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .categorie {
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .date {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #ccc;
+  }
+  
