@@ -11987,7 +11987,7 @@ html, body {
 }
 
 main {
-  flex: 1 0 auto;
+  flex: 1 0 auto; /* Grandit mais ne rétrécit pas */
 }
 
 footer {
